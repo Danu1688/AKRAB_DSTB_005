@@ -1,14 +1,27 @@
 proxies:
-- name: AKRAB_1
+- name: AKRAB_GAYENG_05
   type: trojan
   server: kno2fy.com
   port: 443
-  password: 0acf0d63-8ece-4999-9bcc-322c85a97cbb
+  password: bfe12676-b93f-419c-84b3-0930d80dd043
   udp: true
-  sni: sg-ctn.sshpremium.my.id
+  sni: do-gayeng.potatonc.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojanws
+    path: /trojan
     headers:
-      Host: sg-ctn.sshpremium.my.id
+      Host: do-gayeng.potatonc.my.id
+- name: AKRAB_TERONG
+  type: trojan
+  server: kno2fy.com
+  port: 443
+  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  udp: true
+  sni: b19f.vpsxc.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /terong
+    headers:
+      Host: b19f.vpsxc.my.id

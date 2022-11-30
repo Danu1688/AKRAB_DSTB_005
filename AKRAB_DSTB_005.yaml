@@ -1,0 +1,14 @@
+proxies:
+- name: AKRAB_1
+  type: trojan
+  server: kno2fy.com
+  port: 443
+  password: 0acf0d63-8ece-4999-9bcc-322c85a97cbb
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: sg-ctn.sshpremium.my.id

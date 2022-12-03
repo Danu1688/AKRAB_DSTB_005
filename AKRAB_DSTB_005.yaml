@@ -1,27 +1,20 @@
 proxies:
-- name: AKRAB_GAYENG_05
+- name: GRPC
   type: trojan
-  server: support.zoom.us
+  server: sg-do2.sshpremium.my.id
   port: 443
-  password: bfe12676-b93f-419c-84b3-0930d80dd043
+  password: f4ea911b-2f5f-4f9c-b030-5d5f1fe463c1
   udp: true
-  sni: do-gayeng.potatonc.my.id
+  sni: teams.live.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do-gayeng.potatonc.my.id
-- name: AKRAB_TERONG
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan-grpc
+- name: danugfw01
   type: trojan
-  server: support.zoom.us
+  server: sg-do2.sshpremium.my.id
   port: 443
-  password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
+  password: f85f8b68-2b62-42c9-81cb-c353cb902301
   udp: true
-  sni: b19f.vpsxc.my.id
+  sni: teams.live.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /terong
-    headers:
-      Host: b19f.vpsxc.my.id

@@ -50,7 +50,8 @@ proxies:
   ws-opts:
     path: "/trojanws"
     headers:
- - name: danuGrpc05
+      Host: sg-do2.sshpremium.my.id
+- name: danuGrpc05
   type: trojan
   server: wsindo.aryossh.my.id
   port: 443
@@ -61,4 +62,3 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: trojan-grpc
-     Host: sg-do2.sshpremium.my.id
